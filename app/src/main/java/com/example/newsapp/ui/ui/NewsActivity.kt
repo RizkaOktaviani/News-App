@@ -1,10 +1,7 @@
-package com.example.newsapp.ui
+package com.example.newsapp.ui.ui
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.newsapp.R
 
 class NewsActivity : AppCompatActivity() {
