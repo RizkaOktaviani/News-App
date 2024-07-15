@@ -3,6 +3,9 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
     id("androidx.navigation.safeargs.kotlin")
+//    id("com.android.application")
+    id("kotlin-android")
+//    id("kotlin-android-extensions")
 }
 
 android {
