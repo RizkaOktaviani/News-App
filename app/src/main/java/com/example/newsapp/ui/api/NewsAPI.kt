@@ -12,7 +12,7 @@ import java.util.Locale.IsoCountryCode
 interface NewsAPI {
 
     @GET("v2/top-headlines")
-    suspend fun  getHeadLines(
+    suspend fun getHeadLines(
         @Query("country")
         countryCode: String = "us",
         @Query("page")
@@ -23,7 +23,7 @@ interface NewsAPI {
     ): Response<NewsResponse>
 
     @GET("v2/everything")
-    suspend fun  searchForNews(
+    suspend fun searchForNews(
         @Query("q")
         searchQuery: String,
         @Query("page")
